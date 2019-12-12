@@ -1,0 +1,6 @@
+logging:
+  level:
+    com.jvilaverde.beers: debug
+
+server:
+  port: ${PORT:8082}
