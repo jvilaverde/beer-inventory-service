@@ -4,3 +4,8 @@ logging:
 
 server:
   port: ${PORT:8082}
+
+spring:
+  artemis: # defaults for this docker image - vromero/activemq-artemis
+    user: artemis
+    password: simetraehcapa
